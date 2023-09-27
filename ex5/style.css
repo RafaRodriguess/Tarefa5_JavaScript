@@ -1,0 +1,13 @@
+.opcoes{
+    margin-top: 20px;
+}
+.botao-enviar-dados{
+    margin-top: 20px;
+}
+
+#saida{
+    text-align: center;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+}

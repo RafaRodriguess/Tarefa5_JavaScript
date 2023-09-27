@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="entrada-de-dados">
+        <h1>Calculadora</h1>
+        <label> Digite o primeiro valor: </label>
+        <input type="text" id="valor1">
+        <br><br>
+        <label> Digite o segundo valor: </label>
+        <input type="text" id="valor2">
+        <br>
+        <button onclick="receberDados()" class="botao-enviar-dados">Enviar Dados</button>
+    </div>
+
+    <div class="opcoes">
+        <button onclick="calcular('soma')" class="button-soma">Soma (+)</button>
+        <button onclick="calcular('subtracao')" class="button-subtracao">subtracao (-)</button>
+        <button onclick="calcular('divisao')" class="button-divisao">divisao (/)</button>
+        <button onclick="calcular('multiplicacao')" class="button-multiplicacao">multiplicacao (*)</button>
+    </div>
+
+
+    <div id="saida">
+        Resultado: <span id="resultado"></span>
+    </div>
+
+    <script src="ex5.js"></script>
+</body>
+</html>
